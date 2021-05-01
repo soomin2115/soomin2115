@@ -3,17 +3,30 @@
     <meta charset="UTF-8">
     <title>네이버</title>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" /> <!-- 위에 로고 ㅎ -->
+    <link rel="stylesheet" href="./naver.css"
 </head>
 <body>
- <h1>
-     <a href="https://www.naver.com/">네이버</a>
- </h1>
- <h2>검색창</h2>
- <fieldset> <!-- <fieldset> 요소는 하나의 그룹으로 묶은 요소들 주변으로 박스 모양의 선을 그려줍니다. --> <!--여러 연관된 요소를 붂어 박스모양의 선을그림-->
-     <legend>검색</legend> <!-- <legend> 태그는 <fieldset> 요소의 캡션(caption)을 정의할 때 사용합니다. -->
-     <input />
-     <button>검색</button>
- </fieldset>
+<header>
+    <div id="header-center">
+        <div>
+            <span>네이버를 시작페이지로</span>
+            <span>쥬니어네이버</span>
+            <span>해피빈</span>
+        </div>
+        <div id="header-search">
+            <a href="https://www.naver.com/">
+                <h1><span class="blind">네이버</span></h1>
+            </a>
+            <h2 class="blind">검색창</h2>
+            <fieldset> <!-- <fieldset> 요소는 하나의 그룹으로 묶은 요소들 주변으로 박스 모양의 선을 그려줍니다. --> <!--여러 연관된 요소를 붂어 박스모양의 선을그림-->
+                <legend class="blind">검색</legend> <!-- <legend> 태그는 <fieldset> 요소의 캡션(caption)을 정의할 때 사용합니다. -->
+                <input />
+                <button class="blind">검색</button>
+            </fieldset>
+        </div>
+    </div>>
+</header>
+<nav>
  <ul> <!-- unordered list-->
      <li>메일</li> <!-- list item -->
      <li>카페</li> <!-- list item -->
