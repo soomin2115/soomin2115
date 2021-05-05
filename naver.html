@@ -1,7 +1,8 @@
-<html>
+<!DOCTYPE htmal>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>네이버</title>
+    <title>NAVER</title>
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" /> <!-- 위에 로고 ㅎ -->
     <link rel="stylesheet" href="./naver.css"
 </head>
@@ -18,10 +19,15 @@
                 <h1><span class="blind">네이버</span></h1>
             </a>
             <h2 class="blind">검색창</h2>
-            <fieldset> <!-- <fieldset> 요소는 하나의 그룹으로 묶은 요소들 주변으로 박스 모양의 선을 그려줍니다. --> <!--여러 연관된 요소를 붂어 박스모양의 선을그림-->
-                <legend class="blind">검색</legend> <!-- <legend> 태그는 <fieldset> 요소의 캡션(caption)을 정의할 때 사용합니다. -->
+            <fieldset>
+                <legend class="blind">검색</legend>
                 <input />
-                <button class="blind">검색</button>
+                <span id="search-keyboard"></span>
+                <span id="search-history"></span>
+                <button>
+                     <span class="blind">검색</span>
+                     <span id="search-image"></span>>
+                </button>
             </fieldset>
         </div>
     </div>>

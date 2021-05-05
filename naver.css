@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 
 .blind {
     position: absolute;
@@ -20,15 +24,64 @@ div#header-center{
     height: 52px;
     background: url(sp_main_16ad06.png) 0 -158px no-repeat;
     background-size: 433px 409px;
+    text-indent: 110%;
+    overflow: hidden;
+    vertical-align: middle;
 }
 
 #header-search a {
-
     text-decoration: none;
 }
 
 #header-search fieldset {
+    position: relative;
+    margin-left: 20px;
     width: 582px;
-    height: 52px;
+    height: 56px;
     display: inline-block;
+    border: 2px solid #19ce60;
+    border-radius: 2px;
+    vertical-align: middle;
+    padding: 13px 15px;
+}
+
+#header-search fieldset input{
+
+    border: none;
+    outline: none;
+    width: 444px;
+    height: 24px;
+    margin: 1px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+#header-search fieldset button{
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    padding: 0;
+    background: #19ce60;
+}
+
+#search-keybord{
+   }
+#search-history{
+}
+
+
+
+#search-image{
+    background: url(sp_main_16ad06.png); -270px -342px no-repeat;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: top;
+    background-size: 433px 409px;
 }
